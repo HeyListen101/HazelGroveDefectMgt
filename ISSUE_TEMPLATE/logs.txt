@@ -1,0 +1,9 @@
+# Relevant log output for BUG-XXXX
+
+Timestamp: [YYYY-MM-DD HH:MM:SS]
+Component: [e.g., Backend API, UI Form]
+Level: [INFO | WARNING | ERROR]
+
+[Log contents here, e.g. stack traces, console output]
+
+...
