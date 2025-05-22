@@ -11,28 +11,28 @@
 
 ## 🔎 Summary
 
-The error
-A Server Side Error appears saying: AuthApiError: Invalid Refresh Token: Refresh Token Not Found
+
+Takes too much time to receive request, does not indicate to wait if multiple requests to reset password as well. Instead of saying "wait", it will say email not exists. Overall, it lacks information that the user should be aware upon requesting and to avoid spamming.
 
 ---
 
 ## ✅ Steps to Reproduce
 
-1. Locally git pull current branch 2702120
-2. run on dev
-3. Open localhost:3000
+1. Open app 
+2. Navigate to forgot password screen
+3. Request Password Reset Link
 
 ---
 
 ## 📷 Expected Behavior
 
-The user should be arrive on to the landing page
+Should receive password reset request immediately; or at least notify the user that the request is processing
 
 ---
 
 ## 🧨 Actual Behavior
 
-The application returns an error saying 'Refresh Token Not Found'
+Took too much to receive request
 
 ---
 
